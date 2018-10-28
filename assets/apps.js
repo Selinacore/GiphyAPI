@@ -51,8 +51,7 @@ $("button").on("click", function() {
       var cheeseImage = $("<img>");
       cheeseImage.attr("src", results[i].images.fixed_height.url);
 
-      var rating = results[i].rating; //adds rating
-      var p = $("<p>").text("Rating: " + rating);
+      
 
       imageContainer.append(cheeseImage);
       $("#gifshere").append(imageContainer);
