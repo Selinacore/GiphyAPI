@@ -1,5 +1,10 @@
 // make an array of items, create new items to add to array
 //function to display gif buttons 
+// need to add on click i think for the submit button
+//submit does not work, getting back undefined
+//need to add still and animate 
+
+
 var topics = ["blue cheese", "gouda", "swiss", "cheddar", "parmesean", "gorgonzola"];
 
 function displayGifBtns() {
